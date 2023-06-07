@@ -25,3 +25,7 @@ estudiante.pop( 'edad' )
 print( estudiante )
 print( estudiante['diplomas'][1] )
 
+suma = 0
+for i in range(500001):
+    suma += i
+print( suma )

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Mustra Imagen </title>
+    </head>
+    <body>
+        <h1> Tu imagen ya está guardada en nuestra aplicación </h1>
+        <div>
+            <img src="{{ url_for('static', filename = 'imagenes/' + ruta ) }}" alt="Imagen de un gato" >
+        </div>
+        <a href="/"> Volver al home </a>
+    </body>
+</html>
